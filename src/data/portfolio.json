@@ -1,0 +1,54 @@
+{
+  "personal": {
+    "name": "Jose Gabriel Verutti Narvaez",
+    "title": "Web Developer",
+    "description": "Full Stack Web Developer graduated from the Universidad Autónoma de Occidente, passionate about programming and software development. I have completed over 17 specialized courses in backend development and artificial intelligence. In 2021, I won the first MinTIC hackathon with my project Motzi. \n\n I have developed corporate applications, intranets, and web portals, managing both frontend and backend to meet my clients' needs. My professional approach is based on efficient problem-solving, even outside my main areas of expertise, showcasing my adaptability and continuous learning ability.",
+    "image": "src/public/profile.jpeg"
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Consultant Developer",
+      "company": "Intelecto SAS",
+      "date": "Oct/2024 - Present",
+      "description": "I work as a consultant developer, helping companies to build and improve their digital products and services. I focus on creating user-friendly interfaces, optimizing performance, and ensuring a seamless user experience. My expertise includes React, TypeScript, Angular, .Net Framework, Power Automate, and Azure Services."
+    },
+    {
+      "id": 2,
+      "title": "Backend Profesor",
+      "company": "PONAO",
+      "date": "Apr/2024 - Sep/2024",
+      "description": "I was a backend professor at PONAO, teaching programming and web development. I created a curriculum that covered topics such as Python, FastAPI, AWS, and SQL. I also taught other subjects such as data structures, algorithms, and object-oriented programming."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Agencia Nacional de Mineria (ANM)",
+      "description": "I worked on the ANM project, where I developed an Intranet and a Portal for the organization. Some of the technologies we used included Drupal, SharePoint, Docker, and Azure Services.",
+      "image": "src/public/ANM.png",
+      "url": "https://github.com/JoseVerutti  "
+    },
+    {
+      "id": 2,
+      "title": "Loteria del cauca",
+      "description": "I worked on the Lotería del Cauca project, where I developed a web application for ticket purchases and also created the admin site. Some of the technologies we used included React, TypeScript, Angular, .NET Framework, SQL Server, and Azure Services.", 
+      "image": "src/public/loteria-del-cauca-logo.png",
+      "url": "https://github.com/JoseVerutti"
+    },
+    {
+      "id": 3,
+      "title": "LLM RAG Asistant",
+      "description": "I have developed a text review assistant for the LLM RAG project, leveraging OpenAI's GPT-3 model and Pinecone. This assistant performs text analysis and research to provide context-based responses derived from uploaded documents. The project was implemented using Python, OpenAI's API, Pinecone, and the Transformers library.", 
+      "image": "src/public/ai.svg",
+      "url": "https://github.com/JoseVerutti/RAGChatBot"
+    },
+    {
+      "id": 4,
+      "title": "Posture Tracker",
+      "description": "I have developed a posture tracking application utilizing Python, MediaPipe, and TensorFlow. The system employs MediaPipe to detect and analyze body posture by identifying key landmarks, while TensorFlow is used to train a model that assesses posture quality. The application provides users with feedback reports to help improve their posture and includes reminders to encourage regular activity breaks.", 
+      "image": "src/public/posture.jpeg",
+      "url": "https://github.com/JoseVerutti/PostureDetection"
+    }
+  ]
+}

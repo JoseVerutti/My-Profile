@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  @apply bg-gray-900;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;  /* Changed from height to width for vertical scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-gray-800;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-blue-400;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-500;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    r: 1;
+    opacity: 0.5;
+  }
+  50% {
+    r: 3;
+    opacity: 1;
+  }
+}
+
+@keyframes increseDecrese {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+.w-100 {
+  width: 100%;
+}
+.animate-pulse {
+  animation: pulse 3s infinite;
+}
+
+.tec-icon {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  animation: twinkle 1s infinite;
+}
+
+.tec-icon:hover {
+  animation: increseDecrese 1s infinite;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  padding: 20px;  /* Added padding instead of absolute positioning */
+}
+
+.tec-icon {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+}
