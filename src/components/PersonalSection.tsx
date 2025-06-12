@@ -6,7 +6,7 @@ const PersonalSection = () => {
   return (
     <section className="w-100 w-screen h-screen flex items-center justify-center bg-gray-900 p-8">
       <div className="max-w-6xl flex flex-col md:flex-row items-center gap-12">
-        <div className="w-64 h-64 md:w-96 md:h-96 relative">
+        <div className="w-64 h-64 md:w-96 md:h-96 relative bg-white image-bg">
           <img
             src={data.personal.image}
             alt={data.personal.name}
@@ -17,6 +17,9 @@ const PersonalSection = () => {
           <div className="space-y-2">
             <h1 className="text-4xl md:text-6xl font-bold text-white">
               {data.personal.name}
+            </h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white">
+              {data.personal.secondName}
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-blue-400">
               {data.personal.title}

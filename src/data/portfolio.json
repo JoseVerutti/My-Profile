@@ -1,54 +1,92 @@
 {
   "personal": {
-    "name": "Jose Gabriel Verutti Narvaez",
-    "title": "Web Developer",
-    "description": "Full Stack Web Developer graduated from the Universidad Autónoma de Occidente, passionate about programming and software development. I have completed over 17 specialized courses in backend development and artificial intelligence. In 2021, I won the first MinTIC hackathon with my project Motzi. \n\n I have developed corporate applications, intranets, and web portals, managing both frontend and backend to meet my clients' needs. My professional approach is based on efficient problem-solving, even outside my main areas of expertise, showcasing my adaptability and continuous learning ability.",
-    "image": "/profile.jpeg"
+    "name": "Jose Gabriel",
+    "secondName": "Verutti Narvaez",
+    "title": "Full Stack Web Developer",
+    "description": "Self-taught Full Stack Web Developer passionate about transforming innovative ideas into robust, scalable applications. Proactive and ownership-driven, I focus on high-quality code, creative problem-solving, informed technical decisions, and strong collaboration. A quick, adaptable learner with a solid foundation in ReactJS, Python, .NET, and cloud technologies, I aim to contribute significantly to impactful solutions in dynamic and innovative environments.",
+    "image": "/profile.png",
+    "email": "verutti.gabriel@gmail.com",
+    "phone": "+57 3174515697",
+    "education": "Ingeniería Biomédica - Universidad Autónoma de Occidente (2019-2024)",
+    "links": {
+      "linkedin": "https://linkedin.com/in/gabriel-verutti-narvaez-559576190",
+      "github": "https://github.com/JoseVerutti",
+      "portfolio": "https://joseverutti.netlify.app"
+    }
   },
   "experience": [
     {
       "id": 1,
-      "title": "Consultant Developer",
+      "title": "Development Consultant",
       "company": "Intelecto SAS",
       "date": "Oct/2024 - Present",
-      "description": "I work as a consultant developer, helping companies to build and improve their digital products and services. I focus on creating user-friendly interfaces, optimizing performance, and ensuring a seamless user experience. My expertise includes React, TypeScript, Angular, .Net Framework, Power Automate, and Azure Services."
+      "description": "Development and maintenance of websites, portals, and intranets for corporate clients and government institutions, using technologies such as Angular, ReactJS, .NET, SharePoint, PowerApps, and Azure services. Collaboration in multidisciplinary teams for the delivery of customized solutions and deployment on cloud platforms like Azure. Projects include work for the Mining and public sector (Colombia) and Entertainment industry, demonstrating capability in large-scale projects using Microsoft ecosystem."
     },
     {
       "id": 2,
-      "title": "Backend Profesor",
-      "company": "PONAO",
-      "date": "Apr/2024 - Sep/2024",
-      "description": "I was a backend professor at PONAO, teaching programming and web development. I created a curriculum that covered topics such as Python, FastAPI, AWS, and SQL. I also taught other subjects such as data structures, algorithms, and object-oriented programming."
+      "title": "Backend Professor",
+      "company": "PONAO National Polytechnic of Arts and Crafts",
+      "date": "Jan/2024 - Oct/2024",
+      "description": "Instructed over 120 students in advanced backend development, focusing on Python with FastAPI. Designed and delivered modules on cloud services (AWS: DynamoDB, IAM, S3) and AWS AI services. Promoted coding best practices, Docker usage, and microservices architecture. This role demonstrates experience in education and technical mentorship."
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer",
+      "company": "Telemetry API Development",
+      "date": "Jan/2023 - Dec/2023",
+      "description": "Led the backend development of a RESTful API with FastAPI (Python) for real-time telemetry of an electric car, a competitor in 'EXPOingeniería 2023'. Collaborated on frontend development with ReactJS, ensuring seamless integration for data visualization. This project is an excellent example of MVP development with the required tech stack (React, Python)."
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Agencia Nacional de Mineria (ANM)",
-      "description": "I worked on the ANM project, where I developed an Intranet and a Portal for the organization. Some of the technologies we used included Drupal, SharePoint, Docker, and Azure Services.",
-      "image": "/ANM.png",
-      "url": "https://github.com/JoseVerutti  "
+      "title": "RumbaApp - Event Discovery Web Application",
+      "description": "Conceptualization and development of an MVP web application for users in Colombia to find nearby parties and events. Leading the full development, from user interface to server logic and database. Focus on Agile MVP development, user-centered design, preparation for future scalability.",
+      "image": "/Rumbaapp.jpg",
+      "url": "https://rumbaapp.com/",
+      "technologies": ["ReactJS", "FastAPI", "Python", "FireStore", "Google Cloud Services", "Docker"],
+      "status": "In Progress",
+      "type": "Collaboration Project"
     },
     {
       "id": 2,
-      "title": "Loteria del cauca",
-      "description": "I worked on the Lotería del Cauca project, where I developed a web application for ticket purchases and also created the admin site. Some of the technologies we used included React, TypeScript, Angular, .NET Framework, SQL Server, and Azure Services.", 
-      "image": "/loteria-del-cauca-logo.png",
-      "url": "https://github.com/JoseVerutti"
+      "title": "Agencia Nacional de Mineria (ANM)",
+      "description": "I worked on the ANM project, where I developed an Intranet and a Portal for the organization. Some of the technologies we used included Drupal, SharePoint, Docker, and Azure Services.",
+      "image": "/ANM.png",
+      "url": "https://github.com/JoseVerutti",
+      "technologies": ["Drupal", "SharePoint", "Docker", "Azure Services"],
+      "status": "Done",
+      "type": "Professional Project"
     },
     {
       "id": 3,
-      "title": "LLM RAG Asistant",
-      "description": "I have developed a text review assistant for the LLM RAG project, leveraging OpenAI's GPT-3 model and Pinecone. This assistant performs text analysis and research to provide context-based responses derived from uploaded documents. The project was implemented using Python, OpenAI's API, Pinecone, and the Transformers library.", 
-      "image": "/ai.svg",
-      "url": "https://github.com/JoseVerutti/RAGChatBot"
+      "title": "Loteria del cauca",
+      "description": "I worked on the Lotería del Cauca project, where I developed a web application for ticket purchases and also created the admin site. Some of the technologies we used included React, TypeScript, Angular, .NET Framework, SQL Server, and Azure Services.", 
+      "image": "/loteria-del-cauca-logo.png",
+      "url": "https://github.com/JoseVerutti",
+      "technologies": ["React", "TypeScript", "Angular", ".NET Framework", "SQL Server", "Azure Services"],
+      "status": "Done",
+      "type": "Professional Project"
     },
     {
       "id": 4,
+      "title": "LLM RAG Assistant",
+      "description": "Development of a text review assistant leveraging OpenAI's GPT-3 model and Pinecone. It performs text analysis and research to provide context-based responses (RAG) derived from uploaded documents.",
+      "image": "/ai.svg",
+      "url": "https://github.com/JoseVerutti/RAGChatBot",
+      "technologies": ["Python", "OpenAI API", "Pinecone", "Transformers library"],
+      "type": "Personal/Research Project",
+      "status": "Done"
+    },
+    {
+      "id": 5,
       "title": "Posture Tracker",
-      "description": "I have developed a posture tracking application utilizing Python, MediaPipe, and TensorFlow. The system employs MediaPipe to detect and analyze body posture by identifying key landmarks, while TensorFlow is used to train a model that assesses posture quality. The application provides users with feedback reports to help improve their posture and includes reminders to encourage regular activity breaks.", 
+      "description": "Development of a posture tracking application using Python, MediaPipe, and TensorFlow. The system detects and analyzes body posture by identifying key landmarks, and TensorFlow is used to train a model that assesses posture quality. The application provides users with feedback reports to help improve their posture and includes reminders to encourage regular activity breaks.",
       "image": "/posture.jpeg",
-      "url": "https://github.com/JoseVerutti/PostureDetection"
+      "url": "https://github.com/JoseVerutti/PostureDetection",
+      "technologies": ["Python", "MediaPipe", "TensorFlow"],
+      "type": "Personal Project",
+      "status": "Done"
     }
   ]
 }

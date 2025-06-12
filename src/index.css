@@ -8,6 +8,9 @@ html, body {
   @apply bg-gray-900;
 }
 
+.image-bg{
+  border-radius: 15px;
+}
 .custom-scrollbar::-webkit-scrollbar {
   width: 8px;  /* Changed from height to width for vertical scrollbar */
 }

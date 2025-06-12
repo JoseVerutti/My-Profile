@@ -22,7 +22,6 @@ const ProjectsSection = () => {
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
-            
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-blue-400">
@@ -30,9 +29,46 @@ const ProjectsSection = () => {
                   </div>
                 )}
               </div>
-              <div className="space-y-2">
+              
+              <div className="space-y-3">
                 <h3 className="text-xl font-bold text-white">{project.title}</h3>
-                <p className="text-gray-300">{project.description}</p>
+                <p className="text-gray-300 text-sm leading-relaxed">{project.description}</p>
+                
+                {/* Sección de tecnologías */}
+                {project.technologies && project.technologies.length > 0 && (
+                  <div className="space-y-2">
+                    <h4 className="text-sm font-semibold text-blue-400">Tecnologías:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {project.technologies.map((tech, index) => (
+                        <span
+                          key={index}
+                          className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded-md 
+                                   border border-blue-500/30 font-medium"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                {/* Badge de estado/tipo si existe */}
+                {(project.status || project.type) && (
+                  <div className="flex items-center gap-2">
+                    {project.status && (
+                      <span className="px-2 py-1 bg-green-500/20 text-green-300 text-xs rounded-md 
+                                     border border-green-500/30 font-medium">
+                        {project.status}
+                      </span>
+                    )}
+                    {project.type && (
+                      <span className="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded-md 
+                                     border border-purple-500/30 font-medium">
+                        {project.type}
+                      </span>
+                    )}
+                  </div>
+                )}
               </div>
             </a>
           ))}
